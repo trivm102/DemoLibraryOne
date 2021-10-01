@@ -29,15 +29,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = "11"
-        useIR = true
-    }
-
-    buildFeatures {
-        compose true
-    }
-
-    packagingOptions {
-        excludes -= "/META-INF/*.kotlin_module"
     }
 }
 
